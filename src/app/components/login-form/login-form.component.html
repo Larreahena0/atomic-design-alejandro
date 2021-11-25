@@ -1,0 +1,6 @@
+<form [formGroup]="formGroup">
+    <app-text-input type="email" formControlName="email" placeholder="E-mail"></app-text-input>
+    <app-text-input type="password" formControlName="password" placeholder="Contraseña"></app-text-input>
+    <app-text-input type="text" formControlName="alejo" placeholder="Prueba"></app-text-input>
+    <button (click)="enviar()">Enviar</button>
+</form>
